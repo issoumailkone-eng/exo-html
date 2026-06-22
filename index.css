@@ -1,0 +1,644 @@
+.navigation ul{
+    display: flex;
+    gap: 6px;
+    list-style: none;
+   
+}
+.navigation a{
+    text-decoration: none;
+    color: black;
+     margin-left: 100px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.inscription{
+    display: flex;
+    margin-right: 90px;
+    gap: 10px;
+}
+.inscription button{
+   border: 1px solid black;
+   padding: 15px;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+.logo img{
+    width: 100px;
+    height: 30px;
+    margin-left: 100px;
+}
+header{
+    margin-bottom: 70px;
+}
+img{
+    width: 100%;
+    height: 80%;
+    margin-left: 100px;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    align-items: right;
+}
+.content{
+    display: flex;
+}
+.text{
+    width: 50%;
+  
+}
+.text h1{
+   font-family:  'montserrat';
+   font-size: 70px;
+   font-weight: 300;
+}
+
+
+
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    padding:80px 10%;
+    background:#fff;
+}
+
+/* SERVICES */
+
+.services{
+    text-align:center;
+    margin-bottom:100px;
+}
+
+.services h2{
+    font-size:42px;
+    margin-bottom:50px;
+    color:#181E4B;
+}
+
+.service-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.service-card{
+    width:230px;
+    padding:30px 20px;
+    border-radius:25px;
+    background:#fff;
+    transition:0.3s;
+}
+
+.service-card img{
+    width:60px;
+    margin-bottom:20px;
+}
+
+.service-card h3{
+    margin-bottom:15px;
+    color:#1E1D4C;
+}
+
+.service-card p{
+    color:#5E6282;
+    line-height:1.5;
+}
+.service-card img{
+    width:50px;
+    height: 50px;
+    margin-bottom:20px;
+    margin-right: 20px;
+    align-items: center;
+}
+.active{
+    box-shadow:0 15px 40px rgba(0,0,0,0.1);
+    border:2px solid #3ca65b;
+}
+
+/* DESTINATIONS */
+
+.destinations{
+    text-align:center;
+}
+
+.destinations span{
+    color:#5E6282;
+    font-weight:600;
+}
+
+.destinations h2{
+    font-size:42px;
+    color:#181E4B;
+    margin:10px 0 50px;
+}
+
+.destination-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.destination-card{
+    width:300px;
+    background:white;
+    border-radius:24px;
+    overflow:hidden;
+    box-shadow:0 10px 30px rgba(0,0,0,0.08);
+}
+destination-card img{
+    width:300px;
+    height:100px;
+    object-fit:cover;
+}
+
+
+.content{
+    padding:20px;
+}
+
+.info{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:15px;
+    font-weight:600;
+}
+
+small{
+    color:#5E6282;
+}
+
+
+
+
+.booking{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:80px;
+    padding:100px 10%;
+}
+
+.booking-left{
+    flex:1;
+}
+
+.subtitle{
+    color:#5E6282;
+    font-weight:600;
+}
+
+.booking-left h2{
+    font-size:50px;
+    color:#181E4B;
+    margin:15px 0 40px;
+    line-height:1.2;
+}
+
+.step{
+    display:flex;
+    gap:20px;
+    margin-bottom:30px;
+}
+.step img{
+    width:50px;
+    height:50px;
+    border-radius:12px;
+}
+
+.icon{
+    width:50px;
+    height:50px;
+    border-radius:12px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+    font-size:22px;
+}
+
+.yellow{
+    background:#f0b90b;
+}
+
+.orange{
+    background:#f15a29;
+}
+
+.blue{
+    background:#0066ff;
+}
+
+.step h4{
+    color:#181E4B;
+    margin-bottom:8px;
+}
+
+.step p{
+    color:#5E6282;
+    line-height:1.5;
+}
+
+.booking-right{
+    flex:1;
+    display:flex;
+    justify-content:center;
+}
+
+.trip-card{
+    width:350px;
+    background:white;
+    border-radius:25px;
+    overflow:hidden;
+    box-shadow:0 20px 40px rgba(0,0,0,0.1);
+}
+
+.trip-card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.trip-content{
+    padding:25px;
+}
+
+.trip-content h3{
+    margin-bottom:10px;
+    color:#181E4B;
+}
+
+.trip-content p{
+    color:#5E6282;
+}
+
+.trip-icons{
+    display:flex;
+    gap:15px;
+    margin:20px 0;
+}
+
+
+
+
+
+
+
+ .testimonials-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 80px;
+    position: relative;
+}
+
+.testimonials-left {
+    flex: 1;
+    max-width: 400px;
+}
+
+.testimonials-left .subtitle {
+    font-weight: 600;
+    font-size: 14px;
+    color: #5E6282;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.testimonials-left h2 {
+    font-size: 42px;
+    color: #14183E;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    line-height: 1.2;
+}
+
+.dots {
+    display: flex;
+    gap: 15px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: #E5E5E5;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: #39425D;
+}
+
+.testimonials-right {
+    flex: 1;
+    position: relative;
+    height: 320px;
+    max-width: 550px;
+}
+
+.testimonial-card {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.05);
+    position: absolute;
+    width: 90%;
+}
+.testimonial-card img.avatar {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+/* Carte principale blanche */
+.active-card {
+    z-index: 2;
+    top: 0;
+    left: 0;
+}
+
+.active-card .avatar {
+    position: absolute;
+    top: -34px;
+    left: -34px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+.testimonial-text {
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.client-name {
+    color: #181E4B;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.client-location, .client-role {
+    font-size: 13px;
+    color: #5E6282;
+    margin-top: 5px;
+}
+
+/* Carte grise en arrière-plan */
+.shadow-card {
+    z-index: 1;
+    top: 60px;
+    left: 40px;
+    background: #FAFAFA;
+    border: 1px solid #F1F1F1;
+}
+
+/* Flèches à droite */
+.nav-arrows {
+    position: absolute;
+    right: 0;
+    top: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.arrow {
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: #BCBFC2;
+    cursor: pointer;
+}
+
+.arrow.down {
+    color: #39425D;
+}
+
+/* ================= PARTNERS ================= */
+.partners-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.partners-section img {
+   width: 100%;
+   align-items: center;
+}
+
+.partner-logo {
+    font-size: 22px;
+    color: #7B7B7B;
+    filter: grayscale(100%);
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.partner-logo:hover {
+    filter: grayscale(0%);
+    opacity: 1;
+}
+
+/* ================= NEWSLETTER ================= */
+.newsletter-section {
+    background: #DFD7F9;
+    background: linear-gradient(135deg, #FFF4F4 0%, #DFD7F9 100%);
+    border-radius: 20px 120px 20px 20px;
+    padding: 60px 40px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.newsletter-section h3 {
+    color: #5E6282;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: 35px;
+}
+
+.subscribe-form {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.input-group {
+    background: #ffffff;
+    padding: 15px 25px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.input-group input {
+    border: none;
+    outline: none;
+    font-size: 14px;
+    width: 100%;
+}
+
+.btn-subscribe {
+    background: linear-gradient(180deg, #FF946D 0%, #FF7D61 100%);
+    color: white;
+    border: none;
+    padding: 15px 35px;
+    border-radius: 10px;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+/* Bouton envoyer flottant bleu à droite */
+.send-icon {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    background: linear-gradient(200deg, #747DEF, #5961F9);
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(-15deg);
+    font-size: 18px;
+    box-shadow: 0px 10px 20px rgba(90, 97, 249, 0.3);
+}
+
+/* ================= FOOTER ================= */
+.footer {
+    padding-top: 40px;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1.5fr;
+    gap: 30px;
+    margin-bottom: 60px;
+}
+
+.footer-brand h2 {
+    font-size: 44px;
+    color: #181E4B;
+    margin-bottom: 15px;
+}
+
+.footer-brand p {
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+.footer-links h4 {
+    color: #080809;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.footer-links ul {
+    list-style: none;
+}
+
+.footer-links ul li {
+    margin-bottom: 12px;
+}
+
+.footer-links ul li a {
+    font-size: 15px;
+    color: #5E6282;
+    transition: 0.2s;
+}
+
+.footer-links ul li a:hover {
+    color: #181E4B;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.icon-circle {
+    width: 40px;
+    height: 40px;
+    background: #ffffff;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #080809;
+}
+
+.icon-circle.insta {
+    background: linear-gradient(45deg, #F09433, #E6683C, #DC2743, #CC2366, #BC1888);
+    color: white;
+}
+
+.discover-text {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.app-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.app-btn {
+    background: #080809;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 11px;
+    cursor: pointer;
+    text-align: center;
+    min-width: 100px;
+}
+
+.footer-bottom {
+    text-align: center;
+    font-size: 13px;
+    color: #5E6282;
+    border-top: 1px solid #F1F1F1;
+    padding-top: 25px;
+}
+
+/* RESPONSIVE DESIGN (Pour mobiles et tablettes) */
+@media (max-width: 768px) {
+    .testimonials-section, .partners-section {
+        flex-direction: column;
+        gap: 40px;
+    }
+    .footer-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+    .testimonials-right {
+        width: 100%;
+        height: 250px;
+    }
+}
